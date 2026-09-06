@@ -51,6 +51,16 @@ const routes = [
                     menu: true
                 }
             },
+            {
+                path: '/board',
+                name: 'board',
+                component: () => import('@/views/board/index.vue'),
+                meta: {
+                    title: 'board',
+                    name: 'board',
+                    menu: true
+                }
+            },
         ]
 
     },
